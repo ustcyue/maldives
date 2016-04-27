@@ -1,0 +1,11 @@
+a .radio input,
+a .checkbox input {
+	position: absolute;
+	left: inherit;
+}
+.select-tag{
+  width:30%
+}
+.dropdown-menu{
+  width:70%
+}
