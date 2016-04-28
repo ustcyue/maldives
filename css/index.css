@@ -4,8 +4,11 @@ a .checkbox input {
 	left: inherit;
 }
 .select-tag{
-  width:30%
+  width:30%;
+  color:#FFF;
+  margin-right:10px
+
 }
 .dropdown-menu{
-  width:70%
+  width:100%
 }
