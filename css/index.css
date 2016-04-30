@@ -3,12 +3,47 @@ a .checkbox input {
 	position: absolute;
 	left: inherit;
 }
+
 .select-tag{
   width:30%;
   color:#FFF;
-  margin-right:10px
+  margin-right:10px;
+  float:left;
+  text-align:right;
+  margin-top:8px
+}
+
+span.hide-native-select{
+  float:left;
+  width:65%;
+  float:right
 
 }
+
 .dropdown-menu{
   width:100%
+}
+.search-group{
+    width:30%;
+    float:right;
+    display:flex;
+    padding-right:15px
+}
+.more-option-div{
+  width:50%;
+  float:left
+}
+.more-option{
+    float:right;
+    color:#FFF;
+    vertical-align:middle;
+    margin-top:8px;
+    margin-right:10px
+}
+.search-btn{
+  width:50%;
+}
+.search-box{
+  width:30%;
+  float:left
 }

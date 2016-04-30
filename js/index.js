@@ -2,7 +2,7 @@ $(document).ready(function() {
   $(".selecting#star").multiselect({
     inheritClass: true,
     includeSelectAllOption: true,
-    buttonWidth: '70%',
+    buttonWidth: '100%',
     enableHTML: true
   });
 });
