@@ -5,4 +5,7 @@ $(document).ready(function() {
     buttonWidth: '100%',
     enableHTML: true
   });
+  $(".more-option-div").click(function(){
+    $(".extra").toggle();
+});
 });
