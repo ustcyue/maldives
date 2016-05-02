@@ -47,3 +47,15 @@ span.hide-native-select{
   width:30%;
   float:left
 }
+.boxes{
+	float: left;
+	margin-left:40px
+}
+.mycheckbox{
+	color:#FFF;
+	margin-right:20px
+}
+.mycheckbox i{
+	background-color:rgba(255, 255, 255, 0.38)
+
+}
