@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<!--[if IE 8]>			<html class="ie ie8"> <![endif]-->
+<!--[if IE 9]>			<html class="ie ie9"> <![endif]-->
+<!--[if gt IE 9]><!-->	<html> <!--<![endif]-->
+	<head>
+		<meta charset="utf-8" />
+		<title>Smarty - Multipurpose + Admin</title>
+		<meta name="keywords" content="HTML5,CSS3,Template" />
+		<meta name="description" content="" />
+		<meta name="Author" content="Dorin Grigoras [www.stepofweb.com]" />
+
+		<!-- mobile settings -->
+		<meta name="viewport" content="width=device-width, maximum-scale=1, initial-scale=1, user-scalable=0" />
+		<!--[if IE]><meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'><![endif]-->
+
+		<!-- WEB FONTS : use %7C instead of | (pipe) -->
+		<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400%7CRaleway:300,400,500,600,700%7CLato:300,400,400italic,600,700" rel="stylesheet" type="text/css" />
+
+		<!-- CORE CSS -->
+		<link href="assets/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+
+		<!-- THEME CSS -->
+		<link href="assets/css/essentials.css" rel="stylesheet" type="text/css" />
+		<link href="assets/css/layout.css" rel="stylesheet" type="text/css" />
+
+		<!-- PAGE LEVEL SCRIPTS -->
+		<link href="assets/css/header-1.css" rel="stylesheet" type="text/css" />
+		<link href="assets/css/color_scheme/green.css" rel="stylesheet" type="text/css" id="color_scheme" />
+		<link href="css/bootstrap-multiselect.css" rel="stylesheet" />
+		<link href="css/index.css" rel="stylesheet" />
+	</head>
+
+	<!--
+		AVAILABLE BODY CLASSES:
+
+		smoothscroll 			= create a browser smooth scroll
+		enable-animation		= enable WOW animations
+
+		bg-grey					= grey background
+		grain-grey				= grey grain background
+		grain-blue				= blue grain background
+		grain-green				= green grain background
+		grain-blue				= blue grain background
+		grain-orange			= orange grain background
+		grain-yellow			= yellow grain background
+
+		boxed 					= boxed layout
+		pattern1 ... patern11	= pattern background
+		menu-vertical-hide		= hidden, open on click
+
+		BACKGROUND IMAGE [together with .boxed class]
+		data-background="assets/images/boxed_background/1.jpg"
+	-->
+	<body class="smoothscroll enable-animation">
+
+		<!-- wrapper -->
+		<div id="wrapper">
+
+			<!--
+				AVAILABLE HEADER CLASSES
+
+				Default nav height: 96px
+				.header-md 		= 70px nav height
+				.header-sm 		= 60px nav height
+
+				.noborder 		= remove bottom border (only with transparent use)
+				.transparent	= transparent header
+				.translucent	= translucent header
+				.sticky			= sticky header
+				.static			= static header
+				.dark			= dark header
+				.bottom			= header on bottom
+
+				shadow-before-1 = shadow 1 header top
+				shadow-after-1 	= shadow 1 header bottom
+				shadow-before-2 = shadow 2 header top
+				shadow-after-2 	= shadow 2 header bottom
+				shadow-before-3 = shadow 3 header top
+				shadow-after-3 	= shadow 3 header bottom
+
+				.clearfix		= required for mobile menu, do not remove!
+
+				Example Usage:  class="clearfix sticky header-sm transparent noborder"
+			-->
+			<div id="header" class="sticky transparent clearfix">
+
+				<!-- TOP NAV -->
+				<header id="topNav">
+					<div class="container">
+
+						<!-- Mobile Menu Button -->
+						<button class="btn btn-mobile" data-toggle="collapse" data-target=".nav-main-collapse">
+							<i class="fa fa-bars"></i>
+						</button>
+
+						<!-- Logo -->
+						<a class="logo pull-left" href="index.html">
+							<img src="assets/images/logo_light.png" alt="" />
+							<img src="assets/images/logo_dark.png" alt="" />
+						</a>
+
+						<!--
+							Top Nav
+
+							AVAILABLE CLASSES:
+							submenu-dark = dark sub menu
+						-->
+						<div class="navbar-collapse pull-right nav-main-collapse collapse">
+							<nav class="nav-main">
+
+								<!--
+									.nav-onepage
+									Required for onepage navigation links
+
+									Add .external for an external link!
+								-->
+								<ul id="topMain" class="nav nav-pills nav-main nav-onepage">
+									<li class="active"><!-- HOME -->
+										<a href="#slider">
+											HOME
+										</a>
+									</li>
+									<li><!-- FEATURES -->
+										<a href="#features">
+											FEATURES
+										</a>
+									</li>
+									<li><!-- PRICING -->
+										<a href="#pricing">
+											PRICING
+										</a>
+									</li>
+									<li><!-- TESTIMONIALS -->
+										<a href="#testimonials">
+											TESTIMONIALS
+										</a>
+									</li>
+									<li><!-- PURCHASE -->
+										<a class="external" href="#purchase">
+											PURCHASE
+										</a>
+									</li>
+								</ul>
+
+							</nav>
+						</div>
+
+					</div>
+				</header>
+				<!-- /Top Nav -->
+
+			</div>
+
+
+			<!-- HOME -->
+			<section id="slider" class="fullheight" style="background:url('images/bakgrd.jpg')">
+				<div class="overlay dark-5"><!-- dark overlay [1 to 9 opacity] --></div>
+
+				<div class="display-table">
+					<div class="display-table-cell vertical-align-middle">
+
+						<div class="container text-center">
+
+							<form method="post" action="#" class="row margin-top-80 landing-form">
+								<div class="row">
+
+									<div class="col-sm-4">
+										<label class="select-tag">Island Star</label>
+										<select class="selecting form-control input-lg" id="star"  multiple="multiple">
+                        <option value="AL">One Star</option>
+                        <option value="AL">One Star</option>
+                        <option value="AL">One Star</option>
+  											<option value="WY">Five Star</option>
+												<option value="WY">Luxury</option>
+
+										</select>
+									</div>
+
+									<div class="col-sm-4">
+										<label class="select-tag">Traffic</label>
+										<select class="selecting form-control input-lg" id="star"  multiple="multiple">
+                        <option value="AL">Speedboat</option>
+                        <option value="AL">Sea Plane</option>
+												<option value="AL">Domestic Plane</option>
+										</select>
+									</div>
+
+									<div class="col-sm-4">
+										<label class="select-tag">Location</label>
+										<select class="selecting form-control input-lg" id="star"  multiple="multiple">
+												<option value="AL">North Atoll</option>
+												<option value="AL">South Atoll</option>
+										</select>
+									</div>
+								</div>
+								<div class="row">
+									<div class="col-sm-4">
+										<label class="select-tag">Hotel Age</label>
+										<select class="selecting form-control input-lg" id="star"  multiple="multiple">
+												<option value="AL">Less than 2 years</option>
+												<option value="AL">Less than 5 years</option>
+												<option value="AL">Less than 10 years</option>
+										</select>
+									</div>
+									<div class="col-sm-4">
+										<label class="select-tag">snorkelling</label>
+										<select class="selecting form-control input-lg" id="star"  multiple="multiple">
+                        <option value="AL">One Star</option>
+                        <option value="AL">Two Star</option>
+                        <option value="AL">Three Star</option>
+										</select>
+									</div>
+									<div class="col-sm-4">
+										<label class="select-tag">Sand</label>
+										<select class="selecting form-control input-lg" id="star"  multiple="multiple">
+                        <option value="AL">One Star</option>
+                        <option value="AL">Two Star</option>
+                        <option value="AL">Three Star</option>
+										</select>
+									</div>
+							</div>
+							<div class="row extra" style="display:none">
+								<div class="col-sm-4">
+									<label class="select-tag">Island Size</label>
+									<select class="selecting form-control input-lg" id="star"  multiple="multiple">
+											<option value="AL">Small</option>
+											<option value="AL">Midium</option>
+											<option value="AL">Large</option>
+									</select>
+								</div>
+								<div class = "boxes">
+								<label class = "checkbox mycheckbox">
+									<input type="checkbox" value="1">
+									<i></i>
+									water villa
+								</label>
+								<label class = "checkbox mycheckbox">
+									<input type="checkbox" value="1">
+									<i></i>
+									pool villa
+								</label>
+								<label class = "checkbox mycheckbox">
+									<input type="checkbox" value="1">
+									<i></i>
+									glass floor</label>
+								<label class = "checkbox mycheckbox">
+									<input type="checkbox" value="1">
+									<i></i>
+									free wifi</label>
+								<label class = "checkbox mycheckbox">
+									<input type="checkbox" value="1">
+									<i></i>
+									Sand Bank</label>
+								<label class = "checkbox mycheckbox">
+									<input type="checkbox" value="1">
+									<i></i>
+								Jacuzzi</label>
+							</div>
+							</div>
+							<div class="row">
+								<!-- <div class="search-box">
+									<input type="text" class="form-control input-lg" value="" placeholder="Key Word" />
+								</div> -->
+								<div class="search-group">
+
+									<div class="more-option-div">
+										<tag class="more-option">More Options <i class="fa fa-angle-double-down"></i></tag>
+									</div>
+									<button class="search-btn btn btn-default"><i class="glyphicon glyphicon-th-large et-magnifying-glass"></i>Search</button>
+
+								</div>
+							</div>
+
+							</form>
+
+						</div>
+
+					</div>
+				</div>
+			</section>
+			<!-- /HOME -->
+
+		</div>
+		<!-- /wrapper -->
+
+
+		<!-- SCROLL TO TOP -->
+		<a href="#" id="toTop"></a>
+
+
+		<!-- PRELOADER -->
+		<div id="preloader">
+			<div class="inner">
+				<span class="loader"></span>
+			</div>
+		</div><!-- /PRELOADER -->
+
+
+		<!-- JAVASCRIPT FILES -->
+		<script type="text/javascript">var plugin_path = 'assets/plugins/';</script>
+		<script type="text/javascript" src="assets/plugins/jquery/jquery-2.1.4.min.js"></script>
+
+		<script type="text/javascript" src="assets/js/scripts.js"></script>
+
+		<!-- STYLESWITCHER - REMOVE -->
+		<script async type="text/javascript" src="assets/plugins/styleswitcher/styleswitcher.js"></script>
+    <script src="js/bootstrap-multiselect.js"></script>
+		<script type="text/javascript" src = "js/index.js"></script>
+	</body>
+</html>

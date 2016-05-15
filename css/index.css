@@ -3,7 +3,36 @@ a .checkbox input {
 	position: absolute;
 	left: inherit;
 }
+.top-padding{
+	padding-top:15px;
+	padding-right:0px;
+	padding-left:0px
+}
+.right-container{
+	float:right;
+	padding-right:0px;
+	padding-left:10px
+}
+.left-container{
+	float:left;
+	padding:0px
+}
+div.toggle{
+	margin:0px
+}
+.toggle label{
+	margin-bottom:0px
+}
+.toggle.toggle-transparent-body label {
+    background: #bdc3c7;
+		padding-top:0.2em;
+		padding-bottom:0.2em
+}
+.flexslider {
+}
 
+.flexslider .slides img {
+}
 .select-tag{
   width:30%;
   color:#FFF;
