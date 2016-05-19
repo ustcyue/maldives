@@ -21,6 +21,18 @@ a .checkbox input {
 	margin-right:20px;
 	padding-bottom:20px
 }
+
+.checkbox-row{
+	margin-top:-10px;
+	padding-left:p0x
+}
+.boarding-class{
+	margin-top:10px
+}
+.slider-wrapper{
+	width:90%;
+	margin-left:5%
+}
 div.toggle{
 	margin:0px
 }
@@ -57,27 +69,24 @@ span.hide-native-select{
   width:100%
 }
 .search-group{
-    width:30%;
     float:right;
     display:flex;
-    padding-right:15px
+    padding-right:15px;
+		margin-top:20px
 }
 .more-option-div{
-  width:50%;
   float:left
 }
 .more-option{
     float:right;
-    color:#FFF;
     vertical-align:middle;
     margin-top:8px;
     margin-right:10px
 }
 .search-btn{
-  width:50%;
+	width:80px
 }
 .search-box{
-  width:30%;
   float:left
 }
 .boxes{
